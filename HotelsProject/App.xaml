@@ -1,0 +1,14 @@
+﻿<Application x:Class="HotelsProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HotelsProject"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="paginatorBtns" TargetType="TextBlock">
+            <Setter Property="Margin" Value="3 0 3 0"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        </Style>
+    </Application.Resources>
+</Application>
